@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+nav{
+    /* background-color: green; */
+    width:100%;
+    height: 5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+nav .logo-text{
+    /* background-color: aqua; */
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .logo-text h1{
+    font-weight: normal;
+    font-size: 2em;
+    color:#fff;
+}
+
+nav .logo-text h1 span{
+    font-weight: bold;
+}
+
+nav .main-nav-items{
+    /* background-color: brown; */
+    width: 50%;
+}
+
+nav .main-nav-items ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .main-nav-items ul li{
+    list-style: none;
+    color: #fff;
+}
+
+nav .aux-nav-items{
+    /* background-color: crimson; */
+    width: 25%;
+}
+
+nav .aux-nav-items ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav .aux-nav-items ul li{
+    list-style: none;
+    color: #fff;
+}
+
+nav .aux-nav-items ul li .login-btn{
+    /* background-color: aqua; */
+    width: 8em;
+    height: 2.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid #fff 2px;
+    cursor: pointer;
+}
+
+
+section.head-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #6034BB;
+    /* position: relative; */
+    box-sizing: border-box;
+    
+    background: linear-gradient(rgba(96, 52,187,0.5), rgba(96, 52, 187,0.5)),url(images/server-room.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section.head-section .content-box{
+    width: 60%;
+    height: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+section.head-section p.small-text{
+    padding-bottom: 1em;
+}
+
+section.head-section h1{
+    font-size: 3.5em;
+}
+
+section.head-section p.header-description{
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 3em;
+    text-align: center;
+
+}
+
+section.head-section .head-section-btn{
+    margin-top: 4em;
+    /* background-color: chocolate; */
+    /* width: 9em;
+    height: 3em; */
+    padding-left:2.5em ;
+    padding-right: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 30px;
+    border: solid #fff 2px;
+    cursor: pointer;
+}
+
+
